@@ -25,6 +25,7 @@ namespace Lesson
             */
 
             // Задача 4
+            /*
             Console.WriteLine("Программа определяет максимальное число из трех");
             Console.Write("Введите первое число ");
             int num1 = Convert.ToInt32(Console.ReadLine());
@@ -48,6 +49,16 @@ namespace Lesson
             else{
                 Console.Write("Максимальное число: " + max);
             }
+            */
+
+
+            // Задача 6
+            Console.WriteLine("Программа определят число четное или нечетное");
+            Console.Write("Введите число ");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            if(num % 2 == 0) Console.Write("Число четное");
+            else Console.Write("Число нечетное");
         }
     }
 }
