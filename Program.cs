@@ -24,6 +24,7 @@ namespace Lesson
             }
             */
 
+
             // Задача 4
             /*
             Console.WriteLine("Программа определяет максимальное число из трех");
@@ -53,12 +54,31 @@ namespace Lesson
 
 
             // Задача 6
+            /*
             Console.WriteLine("Программа определят число четное или нечетное");
             Console.Write("Введите число ");
             int num = Convert.ToInt32(Console.ReadLine());
 
             if(num % 2 == 0) Console.Write("Число четное");
             else Console.Write("Число нечетное");
+            */
+
+
+            // Задача 8
+            Console.WriteLine("Программа выдает все четные числа от 1 до числа N");
+            Console.Write("Введите число ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            int current = 0;
+
+            if(num > 0)
+                while(current <= num)
+                {
+                    if(current % 2 == 0)
+                        Console.Write(current + " ");
+                        current++;
+                }
+            else Console.Write("Введите положительное число!");
+
         }
     }
 }
